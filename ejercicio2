@@ -1,0 +1,22 @@
+/*
+Practica 7
+Bautista De Jesús Héctor Eduardo 
+Ejercicio 2 
+Programa para validar si un numero ingresado por teclado es par o impar 
+*/
+
+#include <stdio.h>
+
+void main()
+{ 
+    int a;
+    printf("Introduce un numero: ");
+    scanf("%d",&a);
+    if(a % 2 == 0){
+        printf("Numero par");
+    }
+    else{
+        printf("numero impar");
+    }
+  
+}
