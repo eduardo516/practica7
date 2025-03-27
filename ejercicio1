@@ -1,0 +1,26 @@
+/*
+Practica 7
+Bautista De Jesús Héctor Eduardo 
+Ejercicio 1 
+Programa para validar si a es mayor a b 
+
+*/
+
+#include <stdio.h>
+
+void main()
+{ 
+    int a, b;
+    printf("Introduce un valor para a: ");
+    scanf("%d",&a);
+    printf("Introduce un valor para b: ");
+    scanf("%d",&b);
+    
+    if(a>b){
+        printf("a es mayor a b\n");
+    }
+    printf("Fin del programa");
+  
+
+}
+
