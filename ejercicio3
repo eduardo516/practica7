@@ -1,0 +1,71 @@
+/*
+Practica 7
+Bautista De Jesús Héctor Eduardo 
+Ejercicio 3 
+Calculadora 
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+void main()
+{ 
+    int a,b,res = 0;
+    int op;
+    printf("Seleccione un numero\n1:Suma\n2:Resta\n3:Multiplicacion\n4:Division\n5:Potenciación\n6:Radicacion\n0:Fin\nOpcion: ");
+    scanf("%d", &op);
+    if(op>0 && op<6){
+        printf("Ingresa un numero: ");
+        scanf("%d",&a);
+        printf("Ingresa otro numero: ");
+        scanf("%d",&b);
+        
+    switch(op){
+        case 1: 
+        res = a+b;
+        printf("%d",res);
+        break;
+       
+        case 2: 
+        res = a-b;
+        printf("%d",res);
+        break;
+        
+        case 3: 
+        res = a*b;
+        printf("%d",res);
+        break;
+        
+        case 4: 
+        res = a/b;
+        printf("%d",res);
+        break;
+        
+        case 5: 
+        res = pow(a,b);
+        printf("%d",res);
+        break;
+        
+
+    }
+    
+    }
+        if(op==6){
+        printf("Ingresa un numero: ");
+        scanf("%d",&a);
+        
+        switch(op){
+            case 6: 
+        res = sqrt(a);
+        printf("%d",res);
+        break;
+            
+        }
+        
+        }
+        
+}
+    
+
+
+
